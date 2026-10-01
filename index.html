@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Para Sheyla 💗</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="dots"><i class="a"></i><i></i><i></i><i></i></div>
+<div id="frame" aria-hidden="true">
+  <div class="lace top"></div><div class="lace bottom"></div>
+  <span class="corner tl">🎀</span><span class="corner tr">🌸</span><span class="corner bl">🐾</span><span class="corner br">💗</span>
+  <div class="gar l"></div><div class="gar r"></div>
+</div>
+
+<!-- ETAPA 1: el perrito -->
+<section class="scene on" id="s1">
+  <h1>Sheyla</h1>
+  <p class="sub">Alguien preparó esto para ti 🎀</p>
+  <div class="stage">
+    <div class="bubble" id="bubble">¡Guau! 💗</div>
+    <svg id="dog" viewBox="0 0 200 190" role="button" tabindex="0" aria-label="Acariciar al perrito">
+      <g id="tail"><path d="M160 150 Q190 140 188 112" stroke="#c98b5a" stroke-width="12" fill="none" stroke-linecap="round"/></g>
+      <ellipse cx="100" cy="170" rx="46" ry="18" fill="#f3d3a8"/>
+      <g class="ear earL"><path d="M45 50 C10 50 8 120 38 130 C58 128 62 80 62 62Z" fill="#c98b5a"/></g>
+      <g class="ear earR"><path d="M155 50 C190 50 192 120 162 130 C142 128 138 80 138 62Z" fill="#c98b5a"/></g>
+      <ellipse cx="100" cy="95" rx="62" ry="58" fill="#f3d3a8"/>
+      <ellipse cx="100" cy="118" rx="34" ry="26" fill="#fff4e3"/>
+      <g id="eyes"><circle cx="78" cy="88" r="8" fill="#3a1f2b"/><circle cx="122" cy="88" r="8" fill="#3a1f2b"/><circle cx="81" cy="85" r="2.6" fill="#fff"/><circle cx="125" cy="85" r="2.6" fill="#fff"/></g>
+      <g id="lids" fill="#f3d3a8"><rect x="66" y="78" width="24" height="12"/><rect x="110" y="78" width="24" height="12"/></g>
+      <ellipse cx="100" cy="106" rx="11" ry="8" fill="#3a1f2b"/>
+      <g id="mouth"><path d="M100 114 V122 M100 122 Q90 132 82 124 M100 122 Q110 132 118 124" stroke="#3a1f2b" stroke-width="3" fill="none" stroke-linecap="round"/><path class="tongue" d="M95 128 h10 v12 a5 5 0 0 1 -10 0Z" fill="#ff6f9a"/></g>
+      <circle cx="62" cy="108" r="9" fill="#ff9ebc" opacity=".6"/><circle cx="138" cy="108" r="9" fill="#ff9ebc" opacity=".6"/>
+      <g transform="translate(126 38) rotate(12)"><path d="M0 0 L-28 -17 V17Z M0 0 L28 -17 V17Z" fill="#ff4f7e"/><circle r="7.5" fill="#e8334f"/><circle cx="-2" cy="-2" r="2" fill="#ffd0de"/></g>
+    </svg>
+  </div>
+  <div class="acts">
+    <button data-a="pet">🤚 Acariciar</button><button data-a="treat">🦴 Galletita</button>
+    <button data-a="ball">🎾 Pelota</button><button data-a="talk">💬 Hablar</button>
+  </div>
+  <div class="bar"><i></i></div><div class="count">Llena de cariño al perrito</div>
+  <button class="next">Mira quién llegó 🐱</button>
+</section>
+
+<!-- ETAPA 2: la gatita con moño -->
+<section class="scene" id="s2">
+  <h1>Michi</h1>
+  <p class="sub">Una gatita con moño que te quiere conocer. Toca, cambia su moño y llena el lugar de moños 🎀</p>
+  <div class="stage kstage" id="kstage">
+    <div class="bubble" id="bubble2">Miau 💗</div>
+    <svg id="cat" viewBox="0 0 200 190" role="button" tabindex="0" aria-label="Acariciar a la gatita">
+      <ellipse cx="100" cy="172" rx="40" ry="20" fill="#fff" stroke="#f1a9c4" stroke-width="3"/>
+      <path d="M38 78 L46 18 L92 50Z" fill="#fff" stroke="#f1a9c4" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M162 78 L154 18 L108 50Z" fill="#fff" stroke="#f1a9c4" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M50 62 L53 36 L74 52Z M150 62 L147 36 L126 52Z" fill="#ffc9dc"/>
+      <ellipse cx="100" cy="104" rx="70" ry="58" fill="#fff" stroke="#f1a9c4" stroke-width="3"/>
+      <ellipse cx="76" cy="100" rx="5.5" ry="8" fill="#3a1f2b"/><ellipse cx="124" cy="100" rx="5.5" ry="8" fill="#3a1f2b"/>
+      <circle cx="78" cy="96" r="2" fill="#fff"/><circle cx="126" cy="96" r="2" fill="#fff"/>
+      <ellipse cx="100" cy="114" rx="5" ry="3.5" fill="#ff8fb3"/>
+      <path d="M90 122 Q95 129 100 122 Q105 129 110 122" stroke="#3a1f2b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <circle cx="56" cy="116" r="10" fill="#ffb3cf" opacity=".6"/><circle cx="144" cy="116" r="10" fill="#ffb3cf" opacity=".6"/>
+      <g transform="translate(100 44)"><path d="M0 0 L-30 -18 V18Z M0 0 L30 -18 V18Z" class="bow"/><circle r="8" class="bow dark"/><circle cx="-2" cy="-2" r="2.2" fill="#fff" opacity=".7"/></g>
+    </svg>
+  </div>
+  <div class="swatches" aria-label="Color del moño">
+    <button style="background:#e8334f" data-c="#e8334f" aria-label="Rojo"></button><button style="background:#ff6fa3" data-c="#ff6fa3" aria-label="Rosa"></button>
+    <button style="background:#b48cff" data-c="#b48cff" aria-label="Lila"></button><button style="background:#6fb8ff" data-c="#6fb8ff" aria-label="Celeste"></button>
+    <button style="background:#ffd24d" data-c="#ffd24d" aria-label="Amarillo"></button>
+  </div>
+  <div class="bar"><i></i></div><div class="count">Toca a Michi, cambia su moño o toca el fondo</div>
+  <button class="next">Atrapa los corazones 💖</button>
+</section>
+
+<!-- ETAPA 3: juego de atrapar corazones -->
+<section class="scene" id="s3">
+  <h1>¡Atrápalos!</h1>
+  <p class="sub">Toca los corazones, moños y huellitas antes de que caigan</p>
+  <div class="bar"><i></i></div><div class="count">0 / 15</div>
+  <button class="next">Ahora, mira el cielo ✨</button>
+</section>
+
+<!-- ETAPA 4: galaxia con agujero negro -->
+<section class="scene" id="s4">
+  <canvas id="cv" aria-label="Galaxia de corazones con un agujero negro en el centro"></canvas>
+  <div class="title">Para Sheyla</div>
+  <div class="hint">toca un corazón brillante · toca el centro · arrastra para girar</div>
+  <div id="card"></div>
+</section>
+
+<script src="script.js"></script>
+<script src="galaxy.js"></script>
+</body>
+</html>
